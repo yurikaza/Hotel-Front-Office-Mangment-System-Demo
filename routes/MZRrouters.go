@@ -6,7 +6,6 @@ import (
 )
 
 //UserRoutes function
-func UserRoutes(incomingRoutes *gin.Engine) {
-    incomingRoutes.POST("/users/signup", controller.SignUp())
-    incomingRoutes.POST("/users/login", controller.Login())
+func MZRroutes(incomingRoutes *gin.Engine) {
+    incomingRoutes.POST("/MZR/verify", controller.MZRverify())
 }
